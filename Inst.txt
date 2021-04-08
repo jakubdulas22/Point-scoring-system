@@ -1,2 +1,0 @@
-﻿Choose a team from the dropdown and then put in the amount of points into the second box. Finally remember to press Save.
-Pleae press the exit button to exit the application
