@@ -171,9 +171,11 @@ namespace Point_scoring_system
             resources.ApplyResources(this.label2, "label2");
             this.label2.Name = "label2";
             this.label2.UseCompatibleTextRendering = true;
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // comboBox2
             // 
+            this.comboBox2.AccessibleRole = System.Windows.Forms.AccessibleRole.Clock;
             this.comboBox2.BackColor = System.Drawing.Color.White;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {

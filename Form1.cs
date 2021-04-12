@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace Point_scoring_system
 {
-    public partial class Form1 : Form
+    public class Form1 : Form
     {
         public Form1()
         {
@@ -38,6 +38,10 @@ namespace Point_scoring_system
         {
         }// this is a dropdown which allows the judges to pick a score (currently from 1 to 10);
 
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
